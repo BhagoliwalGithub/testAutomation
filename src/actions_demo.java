@@ -22,6 +22,8 @@ public class actions_demo {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
 		driver.manage().window().maximize();
+		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 
 		driver.get("https://mail.google.com/");
 		
